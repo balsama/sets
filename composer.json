@@ -1,0 +1,19 @@
+{
+    "name": "balsama/sets",
+    "description": "Does my group of cards have a set?",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    },
+    "license": "gpl",
+    "autoload": {
+        "psr-4": {
+            "Balsama\\Sets\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "drupol/phpermutations": "^1.4"
+    }
+}
