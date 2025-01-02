@@ -1,4 +1,4 @@
-# Set Checker
+#  Set Checker
 https://en.wikipedia.org/wiki/Set_(card_game)
 
 Checks to see if collection contains a Set.

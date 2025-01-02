@@ -21,10 +21,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.php">Set checker (12 cards)</a>
+                    <a class="nav-link" href="index.php">Set checker (12 cards)</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Other Checkers (15, 9, 6, 3)
                     </a>
                     <ul class="dropdown-menu">
@@ -32,7 +32,7 @@
                         <li><a class="dropdown-item" href="15.php">Set checker 15</a></li>
                         <li><a class="dropdown-item" href="9.php">Set checker 9</a></li>
                         <li><a class="dropdown-item" href="6.php">Set checker 6</a></li>
-                        <li><a class="dropdown-item" href="3.php">Set checker 3 (is it really a set!?)</a></li>
+                        <li><a class="dropdown-item active" href="3.php">Set checker 3 (is it really a set!?)</a></li>
                     </ul>
                 </li>
             </ul>
@@ -43,10 +43,10 @@
 <div class="container my-5">
     <h1>Set checker!</h1>
     <div class="col-lg-8 px-0">
-        <p>Enter the cards currently on your table to check if there is a set (assumes there are 12 cards on your table).</p>
+        <p>Enter the cards you have to check if they really are a set!</p>
 
         <form action="submit.php" method="post">
-            <?php $i = 1; while ($i < 13) { ?>
+            <?php $i = 1; while ($i < 4) { ?>
             <div class="input-group">
                 <span class="input-group-text">Card <?php echo $i; ?></span>
                 <select name="count<?php echo $i; ?>" class="form-select" aria-label="Count">
